@@ -1,9 +1,7 @@
 #### Exemplos e Exercício 
->1 - Consulta e manipulação de elementos.
+> 1 - Mais eventos de mouse, teclado, midia. 
 
-> 2 - métodos math
-
-> 3 - Validando e verificando textos utilizando RegEx
+> 2 - Consulta e manipulação de elementos, métodos math, Validando e verificando textos utilizando RegEx
 
 
 
