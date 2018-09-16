@@ -1,0 +1,89 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+	background-color: #e6ecf0;
+}
+
+.wrapper{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* FORM */
+
+.tweet-composer{
+    position: relative;
+    background-color: slategray;
+    padding: 10px 20px;
+}
+
+.tweet-composer__form-group{
+    position: relative;
+    width: 100%;
+}
+
+.tweet-composer__label{
+    display: block;
+}
+
+.tweet-composer__input{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tweet-composer__button {   
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tweet-composer__button:hover{
+    background-color: #e6ecf0;
+    transition: 0.3s;
+}
+
+/* TIMELINE */
+
+.tweets-timeline__box{
+    background-color: #ffffff;
+    margin: 1.3px 0;
+    border-radius: 1px;
+    padding: 10px 20px;
+}
+
+.tweets-timeline__name{
+    font-weight: bold
+}
+
+.tweets-timeline__username{
+    color: gray;
+    font-size: 13px;
+}
+
+.tweets-timeline__date{
+    color: gray;
+    font-size: 13px;
+}
+
+.tweets-timeline__delete-button{
+    color: gray;
+    font-size: 13px;
+    border: 0;
+    background: 0 0;
+    cursor: pointer;
+}

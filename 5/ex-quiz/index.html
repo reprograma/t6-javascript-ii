@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex - Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="quiz">
+
+            <div class="quiz__item">
+                <p class="quiz__question">1. Pergunta</p>
+
+                <div class="quiz_options">
+                    <label id="correctString1">
+                        <input class="quiz__answer" type="radio" name="q1" value="1">
+                        <span class="quiz__answer-text">Resposta correta</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q1" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q1" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q1" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz__item">
+                <p class="quiz__question">2. Pergunta</p>
+
+                <div class="quiz_options">
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q2" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label id="correctString2">
+                        <input class="quiz__answer" type="radio" name="q2" value="1">
+                        <span class="quiz__answer-text">Resposta correta</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q2" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q2" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz__item">
+                <p class="quiz__question">3. Pergunta</p>
+
+                <div class="quiz_options">
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q3" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label id="correctString3">
+                        <input class="quiz__answer" type="radio" name="q3" value="1">
+                        <span class="quiz__answer-text">Resposta correta</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q3" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q3" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz__item">
+                <p class="quiz__question">4. Pergunta</p>
+
+                <div class="quiz_options">
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q4" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label id="correctString4">
+                        <input class="quiz__answer" type="radio" name="q4" value="1">
+                        <span class="quiz__answer-text">Resposta correta</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q4" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input class="quiz__answer" type="radio" name="q4" value="0">
+                        <span class="quiz__answer-text">Resposta errada</span>
+                    </label>
+                </div>
+            </div>
+            <br />
+            <div class="quiz__submit-container">
+                <button class="quiz__button" id="submitButton" onClick="submitQuiz()">Finalizar</button>
+            </div>
+
+            <div class="quiz__answers" id="correctAnswer1"></div>
+            <div class="quiz__answers" id="correctAnswer2"></div>
+            <div class="quiz__answers" id="correctAnswer3"></div>
+            <div class="quiz__answers" id="correctAnswer4"></div>
+
+            <div class="quiz__score-container">
+                <h2 class="quiz__score" id="userScore"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+	/* background-color: #462755; */
+}
+
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.article{
+    position: relative;
+}
+
+.article__title{
+    color: #462755;
+}
