@@ -1,8 +1,11 @@
 #### Exemplos e Exercício 
-> 1 - Acessando e adicionando elementos
 
-> 2 - Removendo elementos
+>1 - Destacando um erro de formulário no focus e em eventos do teclado
 
-> 3 - Aprendendo eventos de teclado contador de caracteres e implementando contador
+>2 - Selecionando conteúdos.
 
-> 4 - Capturando valores em elementos mais complexos e trabalhando os métodos de select com iteração de elementos.
+>3 - Manipulando o estilo para fazer animações
+
+>4 - Métodos de manipulação de atributo - classe
+
+>5 - Métodos de manipulação de atributo - imagem

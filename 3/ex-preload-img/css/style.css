@@ -1,0 +1,50 @@
+/* GERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.article{
+  position: relative;
+}
+
+.article__title{
+  color: #462755;
+}
+
+.article__text-title{
+  margin-top: 30px;
+}
+
+.article__paragraph{
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  margin: 10px 0
+}
+
+.article__img-container{
+  width: 100%;
+}
+
+.article__img{
+  width: 100%;
+  height: 50vh;
+  object-fit: contain;
+  background-color: black
+}

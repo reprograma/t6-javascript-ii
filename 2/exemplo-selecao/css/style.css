@@ -6,7 +6,6 @@
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 16px;
-	/* background-color: #462755; */
 }
 
 .wrapper{
@@ -20,4 +19,14 @@ body {
 
 .article__title{
     color: #462755;
+}
+
+.selection{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ffffff;
+    /* padding: 30px;/ */
+    border: 1px gray solid;
+    /* min-width: 3%; */
 }

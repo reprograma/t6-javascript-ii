@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exercício - Cadastro</title>
+    <title>Ex - Focus</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,6 @@
     <div class="wrapper">
         <div class="cadastro">
             <h1 class="cadastro__title">Cadastro</h1>
-            <!-- <h2 class="cadastro__subtitle">Deixe sua mensagem que em breve retornaremos</h2> -->
             <form action="" class="cadastro__form">
                 <div class="cadastro__form-group">
                     <label for="cadastroInputNome" class="cadastro__label">Nome</label>
@@ -52,7 +51,7 @@
                     <span for="cadastroInputLevel" class="cadastro__label">Nível</span>
                     <div class="cadastro__radio-group">
                         <label for="cadastroInputLevelJunior" class="cadastro__label">
-                            <input type="radio" name="level" value="Junior" id="cadastroInputLevelJunior"> Junior
+                            <input type="radio" name="level" value="Junior" id="cadastroInputLevelJunior" checked="checked"> Junior
                         </label>
                         <label for="cadastroInputLevelPleno" class="cadastro__label">
                             <input type="radio" name="level" value="Pleno" id="cadastroInputLevelPleno"> Pleno<br>
@@ -64,7 +63,7 @@
                 </div>
                 <div class="cadastro__form-group">
                     <label for="cadastroInputNews" class="cadastro__label">
-                            <input type="checkbox" name="cadastroInputNews" id="cadastroInputNews">
+                            <input type="checkbox" name="cadastroInputNews" id="cadastroInputNews" checked>
                             Desejo assinar a newsletter
                     </label>
                 </div>
@@ -74,5 +73,6 @@
             </form>
         </div>
     </div>
+    <script src="script/script.js"></script>
 </body>
 </html>

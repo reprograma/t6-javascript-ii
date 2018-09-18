@@ -1,0 +1,56 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.article{
+    position: relative;
+    margin: auto;
+    overflow: auto;
+    text-align: justify;
+}
+
+.article__title{
+    color: #462755;
+}
+
+#arrowTop {    
+    color: #462755;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#arrowTop::before {
+  content: '▲';
+}
+
+#arrowTop:hover {
+    color: #7F479B;
+    transition: 0.3s;
+}
+

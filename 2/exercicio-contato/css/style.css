@@ -9,21 +9,28 @@ body {
 }
 
 .wrapper{
-    width: 30%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 /* FORM */
 
-.cadastro{
+.contato{
+    width: 30%;
+    margin: 0 auto;
     position: relative;
 }
 
-.cadastro__title{
+.contato__title{
     color: #7F479B;
+    position: absolute;
+    top: -60px;
 }
 
-.cadastro__subtitle{
+.contato__subtitle{
     color: #7F479B;
     background-color: #ECDDF3;
     padding: 0 5px;
@@ -32,17 +39,17 @@ body {
     display: inline-block;
 }
 
-.cadastro__form-group{
+.contato__form-group{
     position: relative;
     width: 100%;
 }
 
-.cadastro__label{
+.contato__label{
     display: block;
-    /* color: #ffffff; */
+    color: #ffffff;
 }
 
-.cadastro__input{
+.contato__input{
     width: 100%;
     border-radius: 2px;
     border: 1px solid #ECDDF3;
@@ -50,24 +57,24 @@ body {
     font-size: 14px;
 }
 
-.cadastro__button {    
+.contato__button {    
     background-color: #7F479B;
     color: #ffffff;
     border-radius: 50px;
     border: 0;
     padding: 10px 20px;
     width: 130px;
-    /* position: absolute;
-    bottom: -50px; */
+    position: absolute;
+    bottom: -50px;
     font-weight: bold;
-    /* left: 50%;
-    margin-left: -65px; */
+    left: 50%;
+    margin-left: -65px;
     font-size: 16px;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.cadastro__button:hover{
+.contato__button:hover{
     background-color: #462755;
     color: #ECDDF3;
     transition: 0.3s;

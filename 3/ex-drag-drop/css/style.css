@@ -1,0 +1,29 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+    width: 100%;
+    height: 100vh;
+    background-color: #0B2239;
+    background-image: url(../img/big-dipper.svg), url(../img/falling-star.svg), url(../img/satellite.svg), url(../img/sputnik.svg);
+    background-position: 90% 35%, 50% 60%, 15% 10%, 5% 90%;
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+
+.game__title{
+    text-align: center;
+    color: #9AA9FF;
+    text-transform: uppercase;    
+    letter-spacing: 0.5em;
+}
+
+.game__img{
+    width: 100px;
+    height: 100px;    
+    background-image: radial-gradient(circle, rgba(154, 169, 255, 0.9) 1%, rgb(11, 34, 57,0) 70%);
+}
