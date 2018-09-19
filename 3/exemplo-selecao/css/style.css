@@ -26,7 +26,11 @@ body {
     right: 0;
     top: 0;
     background: #ffffff;
-    /* padding: 30px;/ */
     border: 1px gray solid;
-    /* min-width: 3%; */
+    max-width: 300px;
+}
+
+.selection p{
+    padding: 10px;
+    margin: 0;
 }
