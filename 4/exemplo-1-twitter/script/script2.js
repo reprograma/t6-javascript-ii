@@ -41,5 +41,15 @@ buttonCreateTweet.addEventListener("click", function(e){
 
     inputTweet.value = ":)";
 
+    const botaoExcluir = document.querySelector(".tweets-timeline__delete-button");
+
+    botaoExcluir.addEventListener("click", function(evento){
+        evento.preventDefault();
+        div.remove();
+        console.log("oi")
+    })
+
+
+
 
 })
