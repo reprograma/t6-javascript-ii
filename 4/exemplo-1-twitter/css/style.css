@@ -35,9 +35,10 @@ body {
     width: 100%;
     border-radius: 2px;
     border: 1px solid #ffffff;
-    height: 40px;
+    min-height: 40px;
     padding: 10px;
     font-size: 14px;
+    resize: none;
 }
 
 .tweet-composer__button {   
@@ -55,6 +56,13 @@ body {
 .tweet-composer__button:hover{
     background-color: #e6ecf0;
     transition: 0.3s;
+}
+
+.tweet-composer__counter{
+    display: inline-block;
+    text-align: right;
+    float: right;
+    color: #fff;
 }
 
 /* TIMELINE */
@@ -80,10 +88,16 @@ body {
     font-size: 13px;
 }
 
+.tweets-timeline__footer{
+    color: gray;
+    font-size: 13px;
+}
+
 .tweets-timeline__delete-button{
     color: gray;
     font-size: 13px;
     border: 0;
     background: 0 0;
     cursor: pointer;
+    padding: 0;
 }
