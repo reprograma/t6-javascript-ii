@@ -66,6 +66,10 @@ inputTweet.addEventListener("keyup", function(){
     contador.innerHTML = caracteresDisponiveis;
     buttonCreateTweet.disabled = false;
 
+    // if(textBox.value.length > maxLength){
+    //     textBox.value = textBox.value.substring(0, maxLength)
+    // }
+
     if(caracteresDisponiveis <= 15){
         contador.style.color = "red";
     }else{
