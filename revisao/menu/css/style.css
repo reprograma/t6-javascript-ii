@@ -1,0 +1,50 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    background-color: #1a1a1a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 2s;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    background: url(../img/brand.svg);
+    width: 300px;
+    height: 300px;
+    background-position: center top;
+    text-indent: -9999px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-position: left -300px;   
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+main{
+    margin-top: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    transition: 1s;
+}
