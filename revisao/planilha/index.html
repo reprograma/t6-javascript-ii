@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="feedback">
+            <h1 class="feedback__title title">Como é trabalhar aí?</h1>
+            <form action="" class="feedback__form">
+                <div class="feedback__form-group">
+                    <label for="feedbackInputName" class="feedback__label">Empresa que trabalha</label>
+                    <input type="text" class="feedback__input" id="feedbackInputName" placeholder="Empresa X">
+                </div>
+                <div class="feedback__form-group">
+                    <label for="feedbackInputMoney" class="feedback__label">Cidade</label>
+                    <input type="number" class="feedback__input" id="feedbackInputMoney" placeholder="Rio de Janeiro">
+                </div>
+                <div class="feedback__form-group">
+                    <label for="feedbackInputDate" class="feedback__label">Comentário</label>
+                    <input type="text" class="feedback__input" id="feedbackInputDate" placeholder="É ótimo">
+                </div>
+                <div class="feedback__form-group">
+                    <button class="button feedback__button">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="respostas">
+            <h2 class="respostas__subtitle subtitle">Respostas</h2>
+            <table class="respostas__table">
+                <thead class="respostas__header">
+                    <th>Empresa que trabalha</th>
+                    <th>Cidade</th>
+                    <th>Comentário</th>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
